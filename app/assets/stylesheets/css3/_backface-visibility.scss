@@ -1,6 +1,6 @@
 //************************************************************************//
-// Shorthand Backface-visibility mixin
+// Backface-visibility mixin
 //************************************************************************//
 @mixin backface-visibility($visibility) {
-  @include prefixer(backface-visibility, $visibility, webkit moz spec);
+  @include prefixer(backface-visibility, $visibility, webkit spec);
 }
